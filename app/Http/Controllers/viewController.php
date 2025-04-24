@@ -13,8 +13,20 @@ class viewController extends Controller
 
     }
 
+    public function show2 ()
+
+    {
+        return view('CoAJak');
 
 
+    }
+
+ public function show3()
+
+ {
+    return view('OLaravelu');
+
+ }
 
 
 

@@ -5,6 +5,8 @@ use Inertia\Inertia;
 use App\Http\Controllers\viewController;
 
 Route::get('/',[viewController::class, 'show'])->name('home');
+Route::get('/CoAJak',[viewController::class, 'show2']);
+Route::get('/OLaravelu',[viewController::class, 'show3']);
 
 /*Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {

@@ -1,20 +1,21 @@
 <div>
 
-    <div class="bg-black">
+    <div class="bg-violet-500">
 
 
         <div class="flex border-b-2 border-b-cyan-600 m-8 p-2">
                     <a href="/"><div class="flex self-start justify-start"><img src="{{ asset('') }}" alt=""></div></a>
 
-<nav class="bg-black p-4 ml-auto">
     <div class="hidden md:hidden lg:block">
+<nav class="bg-black p-4 ml-auto">
+
     <div class="flex justify-between items-center">
 
             <li class="relative" x-data="{ open: false }">
                 <a href="#" class="text-white hover:bg-gray-600 px-4 py-2 rounded-b lg:border-t-2 lg:border-y-white border-" @mouseenter="open = true" @mouseleave="open = false">Produkce</a>
                 <ul x-show="open" x-transition class="absolute left-0 mt-2 w-48 z-50 bg-gray-800 text-white rounded shadow-lg">
-                    <li><a @mouseenter="open = true" @mouseleave="open = false" href="/OfferRucksack" class="block px-4 py-2 hover:bg-gray-600">Co a jak</a></li>
-                    <li><a @mouseenter="open = true" @mouseleave="open = false" href="/service2" class="block px-4 py-2 hover:bg-gray-600">O laravelu</a></li>
+                    <li><a @mouseenter="open = true" @mouseleave="open = false" href="/CoAJak" class="block px-4 py-2 hover:bg-gray-600">Co a jak</a></li>
+                    <li><a @mouseenter="open = true" @mouseleave="open = false" href="/OLaravelu" class="block px-4 py-2 hover:bg-gray-600">O laravelu</a></li>
 
                 </ul>
             </li>
@@ -61,8 +62,8 @@
 
     <h3 class="text-white px-4 py-2 rounded-b border">Produkce</h3>
             <ul class="mt-2 w-48 z-50 bg-gray-800 text-white rounded shadow-lg">
-                <p><a href="/OfferRucksack" class="block px-4 py-2 hover:bg-gray-600">Co a jak</a></p>
-                <p><a href="/service2" class="block px-4 py-2 hover:bg-gray-600">O laravelu</a></p>
+                <p><a href="/CoAJak" class="block px-4 py-2 hover:bg-gray-600">Co a jak</a></p>
+                <p><a href="/OLaravelu" class="block px-4 py-2 hover:bg-gray-600">O laravelu</a></p>
 
             </ul>
         </li>
