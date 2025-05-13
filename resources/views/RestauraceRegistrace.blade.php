@@ -7,9 +7,7 @@
 
 <form action="" method="post">
     @csrf
-    <input type="text" name="website" style="display: none;">
-    <!-- nebo bezpečněji pomocí CSS třídy -->
-    <div class="honeypot" style="display:none;">
+        <div class="honeypot" style="display:none;">
         <label for="website">Pro Vás:</label>
         <input type="text" name="website" id="website">
     </div>
