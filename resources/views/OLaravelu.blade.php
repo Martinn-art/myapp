@@ -5,7 +5,7 @@
 </x-NavV>
 
 <div class="place-items-center justify-center text-balance w-min">
-<h1 class="text-white">Laravel je framework ve které vzniká práce</h1>
+<h1 class="text-white">Laravel je framework ve které vzniká moje práce</h1>
 <hr>
 <h4 class="text-white">Dále využivám TailWind, který si můžete představit jako již napsané CSS</h4>
 <br>
